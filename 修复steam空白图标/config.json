@@ -1,0 +1,17 @@
+{
+    "version": "V1.1.0",
+    "execution_mode": "concurrent",
+    "options": [
+        {
+            "id": "option1",
+            "name": "一键优化",
+            "description": "项目开源https://github.com/brotherjie-win/steam-icon-fix",
+            "kind": "button",
+            "script": "scripts/steam-icon-fix.exe"
+        }
+    ],
+    "updateInfo": {
+           "date": "2024-05-18",
+          "changes": ["功能更新 V1.1.0 20240518\nBug修复\n修复识别软件/游戏库ID的一处BUG，因为有时ID不是纯十进制数字，感谢 @StaticReasons 提交的代码 #2 。\n新功能\n新增国际化语言支持，根据IP地址所在位置自动切换显示语言，目前支持简体中文（中国大陆）、繁体中文（中国香港/澳门特别行政区和中国台湾）、英文（其他国家和地区），感谢 @brotherjie-win 的代码。"]
+    }
+}
