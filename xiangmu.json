@@ -8,7 +8,7 @@
         "version": "1.0.0",
         "description": "一款用于三角洲游戏的一键开关抗锯齿工具",
         "author": "chenni666",
-        "tags": ["官方", "游戏工具", "抗锯齿"],
+        "tags": ["官方", "游戏工具"],
         "fileSize": "17.6 MB",
         "downloadUrl": "https://github.com/chenni666/chennitool/tree/main/%E4%B8%89%E8%A7%92%E6%B4%B2%E5%BC%80%E5%85%B3%E6%8A%97%E9%94%AF%E9%BD%BF",
         "updateInfo": {
@@ -18,17 +18,17 @@
       },
       {
         "id": "002",
-        "name": "测试",
-        "version": "2.1.0",
-        "description": "不可以使用",
-        "author": "chenni666",
-        "tags": ["官方", "性能优化", "帧数提升"],
-        "fileSize": "22.8 MB",
-        "downloadUrl": "https://example.com/download/002",
+        "name": "修复steam空白图标",
+        "version": "1.1.0"",
+        "description": "一键修复桌面steam空白图标",
+        "author": "brotherjie-win",
+        "tags": ["优化工具"],
+        "fileSize": "25.2MB",
+        "downloadUrl": "https://github.com/chenni666/chennitool/tree/main/%E4%BF%AE%E5%A4%8Dsteam%E7%A9%BA%E7%99%BD%E5%9B%BE%E6%A0%87",
         "updateInfo": {
-          "date": "2025-11-13",
-          "changes": ["新增自动优化模式", "修复内存泄漏问题"]
-        }
+           "date": "2024-05-18",
+          "changes": ["功能更新 V1.1.0 20240518\nBug修复\n修复识别软件/游戏库ID的一处BUG，因为有时ID不是纯十进制数字，感谢 @StaticReasons 提交的代码 #2 。\n新功能\n新增国际化语言支持，根据IP地址所在位置自动切换显示语言，目前支持简体中文（中国大陆）、繁体中文（中国香港/澳门特别行政区和中国台湾）、英文（其他国家和地区），感谢 @brotherjie-win 的代码。"]
+    }
       }  
     ]
   }
