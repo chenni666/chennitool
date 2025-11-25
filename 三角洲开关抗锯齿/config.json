@@ -1,0 +1,26 @@
+{
+    "version": "1.0.0",
+    "execution_mode": "sequential",
+    "options": [
+        {
+            "id": "option1",
+            "name": "搜索路径",
+            "description": "搜索游戏配置文件位置",
+            "kind": "button",
+            "script": "scripts/chazhao.ps1"
+        },
+        {
+            "id": "option2",
+            "name": "进行替换",
+            "description": "应用抗锯齿设置到配置文件",
+            "kind": "option",
+            "Detection":"scripts/jiance.ps1",
+            "script": "scripts/xieru.exe",
+            "unscript": "scripts/shanchu.exe"
+        }
+    ],
+    "updateInfo": {
+           "date": "2025-11-14",
+          "changes": ["初始版本发布"]
+}
+}
